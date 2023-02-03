@@ -1,3 +1,3 @@
-#MySite repository
+## My Site
 
 a github pages repository
