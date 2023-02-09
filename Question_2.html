@@ -7,7 +7,7 @@
     </Head>
     <header>
         <div class="maintext">
-            <h1>Question</h1>
+            <h1>Question?</h1>
         </div>    
     </header>
     <body>
@@ -20,12 +20,16 @@
             <script>
                 function check() {
                     var awnser = document.getElementById("answer").value;
-                    if (awnser == "Zeus") {
-                        alert("Correct!!") 
+                    if (awnser == "Armillaria ostoyae") { 
+                        if (confirm("Correct!! click ok to continue") == true) {
+                            window.open("https://mistafunnehman.github.io/MySite/Question_3.html"); 
+                        } 
+                        else {
+                            text = "You canceled!";
+                        }
                     } else
                         alert("Incorrect")
-                }
-
+               }
             </script>
         </div>
     </body>

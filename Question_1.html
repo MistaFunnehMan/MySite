@@ -20,12 +20,16 @@
             <script>
                 function check() {
                     var awnser = document.getElementById("answer").value;
-                    if (awnser == "Zeus") {
-                        alert("Correct!!") 
+                    if (awnser == "Zeus") { 
+                        if (confirm("Correct!! click ok to continue") == true) {
+                            window.open("https://mistafunnehman.github.io/MySite/Question_2.html"); 
+                        } 
+                        else {
+                            text = "You canceled!";
+                        }
                     } else
                         alert("Incorrect")
-                }
-
+               }
             </script>
         </div>
     </body>

@@ -16,6 +16,7 @@ h2 {
 }
 p {
     font-size: 20px;
+    word-wrap: break-word;
 }
 a:link {
     color: rgb(177, 2, 31);
