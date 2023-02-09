@@ -1,131 +1,25 @@
-* {
-	font-family: "Lucidia Console", "Courier New", monospace;
-}
 body {
-	background-color:black;
+    background-color: rgb(247, 133, 133);
+  }
+.maintext {
+    background-color: white;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
 }
-.center {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	color:green;
-	font-family: "Lucidia Console", "Courier New", monospace;
+h1 {
+    font-family: cursive;
+    font-size: 80px;
 }
-a {
-	color:limegreen;
-	font-family: "Lucidia Console", "Courier New", monospace;
+h2 {
+    font-size: 30px;
 }
-header {
-	height: 70px;
-}
-nav {
-	border-top: none;
-	border-right: none;
-	border-left: none;
-	border-bottom: solid;
-	border-width: 5px;
-	border-color: green;
-	height: 40px;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-li {
-	display: inline;
-	float: left
-}
-a {
-	display: block;
-	padding: 8px;
-	background-color: green;
-	border-right: solid;
-	border-color: darkgreen;
-}
-li a:hover {
-	background-color: darkgreen;
-}
-link:visited {
-	color: white
-}
-.active {
-	background-color: limegreen;
-}
-.dropbtn {
-	background-color: green;
-	color: limegreen;
-	padding: 8px;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-}
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-	color: limegreen;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-.dropdown:hover .dropdown-content {
-	display: block
-}
-.dropdown-content a:hover {
-	background-color: darkgreen
-}
-.dropdown:hover .dropbtn {
-  background-color: darkgreen;
+p {
+    font-size: 20px;
 }
 a:link {
-	text-decoration: none;
-	cursor: pointer;
+    color: rgb(177, 2, 31);
 }
-.right {
-	float: right;
-	width: 25%;
-	color: green;
-}
-.left {
-	float: left;
-	width: 25%;
-	color: green;
-}
-div.content {
-	margin: 10px;
-}
-.border {
-	padding: 2px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: darkgreen;
-}
-.bright {
-	float: right;
-	width: 45%;
-	color: green;
-}
-.bleft {
-	float: left;
-	width: 45%;
-	color: green;
-}
-.relative {
-	position: relative;
-}
-img {
-	margin-top: 5px;
-}
-header {
-	padding-bottom: 40px ;
+a:visited {
+    color: rgb(92, 0, 15);
 }
