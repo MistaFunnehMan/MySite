@@ -1,23 +1,44 @@
-html { 
-    background: url(THE_DUVIRI_ORDER_DISCORD_BANNER.png) no-repeat center center fixed; 
+body { 
+    /*background: url(THE_DUVIRI_ORDER_DISCORD_BANNER.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: rgb(32, 43, 58);
     z-index: -1;
   }
 
 .text {
-    background-color: black;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(14,34,103,1) 0%, rgba(36,113,154,1) 38%, rgba(3,43,108,1) 100%);  
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
 }
 h1 {
     text-align: center;
-    font-size: large;
 }
 p {
-    font-size: smaller;
+
 }
 .spacing {
-    margin-top: 45%;
+    /*margin-top: 45%;*/
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+.imgmain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.txtlarge {
+    font-size: 100px;
 }
