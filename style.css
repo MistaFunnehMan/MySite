@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body { 
     /*background: url(THE_DUVIRI_ORDER_DISCORD_BANNER.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -12,6 +19,7 @@ body {
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(14,34,103,1) 0%, rgba(36,113,154,1) 38%, rgba(3,43,108,1) 100%);  
     color: white;
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -19,26 +27,74 @@ body {
     border-radius: 20px;
     text-align: center;
 }
-h1 {
-    text-align: center;
-}
-p {
-
-}
-.spacing {
-    /*margin-top: 45%;*/
-}
 img {
     max-width: 100%;
     height: auto;
     border-radius: 20px;
-  }
+}
 .imgmain {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin: 10 px;
 }
 .txtlarge {
     font-size: 100px;
+}
+li, a, button, h1, p {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: 500;
+}
+li, a, button{
+    text-decoration: none;
+    color: white;
+}
+header {
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    justify-content: right;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: rgb(68, 196, 255);
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(5, 5, 156);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(92, 217, 255);
+}
+header img {
+    max-width: 80px;
+}
+.nav-text{
+    margin-top: 23px;
+    margin-left: 6px;
+    font-size: 30px;
+    color: white;
+}
+.navtextlog {
+    display: inline-flex;
+    flex-grow: 1;
 }
