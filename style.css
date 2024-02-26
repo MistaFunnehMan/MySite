@@ -1,124 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	font-family: "Lucidia Console", "Courier New", monospace;
 }
-body { 
-    /*background: url(THE_DUVIRI_ORDER_DISCORD_BANNER.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    background-color: rgb(32, 43, 58);
-    z-index: -1;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 10% 60%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .item1 {
-    grid-column: 1 / 3;
-    display: flex;
-    align-items: center;
-  }
-  .item2 {
-    grid-row: 1 / 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .item3 {
-    grid-row: 2;
-    grid-column: 1 / 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-.text {
-    background: rgb(0,212,255);
-    background: rgb(35, 35, 110);  
-    color: white;
-    margin-top: 45px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    display: block;
-    border-radius: 20px;
-    text-align: center;
+body {
+	background-color:black;
 }
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color:green;
+	font-family: "Lucidia Console", "Courier New", monospace;
 }
-.imgmain {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin: 10 px;
-}
-.txtlarge {
-    font-size: 100px;
-}
-li, a, button, h1, p {
-    font-family: "Inconsolata", sans-serif;
-    font-weight: 500;
-}
-li, a, button{
-    text-decoration: none;
-    color: white;
+a {
+	color:limegreen;
+	font-family: "Lucidia Console", "Courier New", monospace;
 }
 header {
-    justify-content: space-between;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    padding: 30px 10%;
+	height: 70px;
 }
-.logo {
-    cursor: pointer;
+nav {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid;
+	border-width: 5px;
+	border-color: green;
+	height: 40px;
 }
-.nav-links{
-    list-style: none;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-.nav-links li {
-    justify-content: right;
-    display: inline-block;
-    padding: 0px 20px;
+li {
+	display: inline;
+	float: left
 }
-.nav-links li a {
-    transition: all 0.3s ease 0s;
+a {
+	display: block;
+	padding: 8px;
+	background-color: green;
+	border-right: solid;
+	border-color: darkgreen;
 }
-.nav-links li a:hover {
-    color: rgb(68, 196, 255);
+li a:hover {
+	background-color: darkgreen;
 }
-button {
-    padding: 9px 25px;
-    background-color: rgb(35, 35, 110);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+link:visited {
+	color: white
 }
-button:hover {
-    background-color: rgb(92, 217, 255);
+.active {
+	background-color: limegreen;
 }
-header img {
-    max-width: 80px;
+.dropbtn {
+	background-color: green;
+	color: limegreen;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
-.nav-text{
-    margin-top: 23px;
-    margin-left: 6px;
-    font-size: 30px;
-    color: white;
+.dropdown {
+	position: relative;
+	display: inline-block;
 }
-.navtextlog {
-    display: inline-flex;
-    flex-grow: 1;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+	color: limegreen;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown:hover .dropdown-content {
+	display: block
+}
+.dropdown-content a:hover {
+	background-color: darkgreen
+}
+.dropdown:hover .dropbtn {
+  background-color: darkgreen;
+}
+a:link {
+	text-decoration: none;
+	cursor: pointer;
+}
+.right {
+	float: right;
+	width: 25%;
+	color: green;
+}
+.left {
+	float: left;
+	width: 25%;
+	color: green;
+}
+div.content {
+	margin: 10px;
+}
+.border {
+	padding: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: darkgreen;
+}
+.bright {
+	float: right;
+	width: 45%;
+	color: green;
+}
+.bleft {
+	float: left;
+	width: 45%;
+	color: green;
+}
+.relative {
+	position: relative;
+}
+img {
+	margin-top: 5px;
+}
+header {
+	padding-bottom: 40px ;
 }
